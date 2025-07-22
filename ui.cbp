@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ui" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ui" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ui" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+			<Add library="dsound" />
+			<Add library="imm32" />
+			<Add library="d2d1" />
+			<Add library="comdlg32" />
+			<Add library="ws2_32" />
+			<Add library="winmm" />
+		</Linker>
+		<Unit filename="PainterEngine/PainterEngine.h" />
+		<Unit filename="PainterEngine/core/PX_3D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_3D.h" />
+		<Unit filename="PainterEngine/core/PX_AES.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_AES.h" />
+		<Unit filename="PainterEngine/core/PX_ANN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_ANN.h" />
+		<Unit filename="PainterEngine/core/PX_Abi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Abi.h" />
+		<Unit filename="PainterEngine/core/PX_Arle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Arle.h" />
+		<Unit filename="PainterEngine/core/PX_Base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Base64.h" />
+		<Unit filename="PainterEngine/core/PX_BaseGeo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_BaseGeo.h" />
+		<Unit filename="PainterEngine/core/PX_Bitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Bitmap.h" />
+		<Unit filename="PainterEngine/core/PX_Core.h" />
+		<Unit filename="PainterEngine/core/PX_Delaunay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Delaunay.h" />
+		<Unit filename="PainterEngine/core/PX_Effect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Effect.h" />
+		<Unit filename="PainterEngine/core/PX_Font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Font.h" />
+		<Unit filename="PainterEngine/core/PX_GPU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_GPU.h" />
+		<Unit filename="PainterEngine/core/PX_Gif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Gif.h" />
+		<Unit filename="PainterEngine/core/PX_Hashmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Hashmap.h" />
+		<Unit filename="PainterEngine/core/PX_Http.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Http.h" />
+		<Unit filename="PainterEngine/core/PX_Huffman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Huffman.h" />
+		<Unit filename="PainterEngine/core/PX_ImageFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_ImageFilter.h" />
+		<Unit filename="PainterEngine/core/PX_Json.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Json.h" />
+		<Unit filename="PainterEngine/core/PX_KalmanFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_KalmanFilter.h" />
+		<Unit filename="PainterEngine/core/PX_KarplusStrong.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_KarplusStrong.h" />
+		<Unit filename="PainterEngine/core/PX_Keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Keyboard.h" />
+		<Unit filename="PainterEngine/core/PX_LTI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_LTI.h" />
+		<Unit filename="PainterEngine/core/PX_LZ77.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_LZ77.h" />
+		<Unit filename="PainterEngine/core/PX_Lagrange.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Lagrange.h" />
+		<Unit filename="PainterEngine/core/PX_Lexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Lexer.h" />
+		<Unit filename="PainterEngine/core/PX_Linker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Linker.h" />
+		<Unit filename="PainterEngine/core/PX_List.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_List.h" />
+		<Unit filename="PainterEngine/core/PX_Log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Log.h" />
+		<Unit filename="PainterEngine/core/PX_MFCC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_MFCC.h" />
+		<Unit filename="PainterEngine/core/PX_MathTable.h" />
+		<Unit filename="PainterEngine/core/PX_Memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Memory.h" />
+		<Unit filename="PainterEngine/core/PX_MemoryPool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_MemoryPool.h" />
+		<Unit filename="PainterEngine/core/PX_Midi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Midi.h" />
+		<Unit filename="PainterEngine/core/PX_Mp3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Mp3.h" />
+		<Unit filename="PainterEngine/core/PX_Murmur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Murmur.h" />
+		<Unit filename="PainterEngine/core/PX_Packet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Packet.h" />
+		<Unit filename="PainterEngine/core/PX_Piano.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Piano.h" />
+		<Unit filename="PainterEngine/core/PX_Piano_mod.h" />
+		<Unit filename="PainterEngine/core/PX_Png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Png.h" />
+		<Unit filename="PainterEngine/core/PX_PointsMesh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_PointsMesh.h" />
+		<Unit filename="PainterEngine/core/PX_Quadtree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Quadtree.h" />
+		<Unit filename="PainterEngine/core/PX_Quicksort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Quicksort.h" />
+		<Unit filename="PainterEngine/core/PX_RFC1951.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_RFC1951.h" />
+		<Unit filename="PainterEngine/core/PX_RedBlackTree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_RedBlackTree.h" />
+		<Unit filename="PainterEngine/core/PX_Sha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Sha1.h" />
+		<Unit filename="PainterEngine/core/PX_Sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Sha256.h" />
+		<Unit filename="PainterEngine/core/PX_Signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Signal.h" />
+		<Unit filename="PainterEngine/core/PX_Sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Sound.h" />
+		<Unit filename="PainterEngine/core/PX_SoundModule.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_SoundModule.h" />
+		<Unit filename="PainterEngine/core/PX_String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_String.h" />
+		<Unit filename="PainterEngine/core/PX_Surface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Surface.h" />
+		<Unit filename="PainterEngine/core/PX_TRaw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_TRaw.h" />
+		<Unit filename="PainterEngine/core/PX_Texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Texture.h" />
+		<Unit filename="PainterEngine/core/PX_TriangleCross.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Truetype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Truetype.h" />
+		<Unit filename="PainterEngine/core/PX_Tuning.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Tuning.h" />
+		<Unit filename="PainterEngine/core/PX_Typedef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Typedef.h" />
+		<Unit filename="PainterEngine/core/PX_Variable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Variable.h" />
+		<Unit filename="PainterEngine/core/PX_Vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Vector.h" />
+		<Unit filename="PainterEngine/core/PX_Wave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Wave.h" />
+		<Unit filename="PainterEngine/core/PX_Wavelet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_Wavelet.h" />
+		<Unit filename="PainterEngine/core/PX_WebSocket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_WebSocket.h" />
+		<Unit filename="PainterEngine/core/PX_curve25519.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_curve25519.h" />
+		<Unit filename="PainterEngine/core/PX_jpg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/core/PX_jpg.h" />
+		<Unit filename="PainterEngine/kernel/PX_2dxCommon.h" />
+		<Unit filename="PainterEngine/kernel/PX_3D_ObjData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_3D_ObjData.h" />
+		<Unit filename="PainterEngine/kernel/PX_Animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Animation.h" />
+		<Unit filename="PainterEngine/kernel/PX_CDA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_CDA.h" />
+		<Unit filename="PainterEngine/kernel/PX_CDA_ObjectVM.h" />
+		<Unit filename="PainterEngine/kernel/PX_CDA_VM.h" />
+		<Unit filename="PainterEngine/kernel/PX_CanvasVM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_CanvasVM.h" />
+		<Unit filename="PainterEngine/kernel/PX_Compiler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Compiler.h" />
+		<Unit filename="PainterEngine/kernel/PX_Kernel.h" />
+		<Unit filename="PainterEngine/kernel/PX_LiveFramework.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_LiveFramework.h" />
+		<Unit filename="PainterEngine/kernel/PX_MQTT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_MQTT.h" />
+		<Unit filename="PainterEngine/kernel/PX_Modbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Modbus.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_3D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_3D.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Animation.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_AsmDebugger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_AsmDebugger.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_AutoText.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_AutoText.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Box.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Box.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Button.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Canvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Canvas.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_CheckBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_CheckBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ClockPan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ClockPan.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Collapse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Collapse.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ColorPanel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ColorPanel.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_CounterDown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_CounterDown.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_CursorButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_CursorButton.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_CursorSlider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_CursorSlider.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_DesignerBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_DesignerBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Drag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Drag.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Edit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Edit.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Effect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Effect.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Executer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Executer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Explorer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Explorer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Explosion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Explosion.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Firework.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Firework.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Grid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Grid.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Image.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Joystick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Joystick.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Label.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_List.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_List.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Live2D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Live2D.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_MemoryView.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_MemoryView.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Menu.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_MessageBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_MessageBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ModbusVarBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ModbusVarBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Oscilloscope.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Oscilloscope.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_PainterBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_PainterBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Panc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Panc.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Panel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Panel.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Partical.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Partical.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Piano.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Piano.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Printer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Printer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Processbar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Processbar.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Protractor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Protractor.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_PushButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_PushButton.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_RadioBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_RadioBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_RankPanel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_RankPanel.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ScaleBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ScaleBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ScorePanel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ScorePanel.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_ScrollArea.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_ScrollArea.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Selectbar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Selectbar.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Sliderbar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Sliderbar.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_SoundView.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_SoundView.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Stamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Stamp.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Timer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_TinyCanvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_TinyCanvas.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_TransformAdapter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_TransformAdapter.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Typer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Typer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_VarBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_VarBox.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Various.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Various.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_VirtualKeyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_VirtualKeyboard.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Waiting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Waiting.h" />
+		<Unit filename="PainterEngine/kernel/PX_Object_Widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Object_Widget.h" />
+		<Unit filename="PainterEngine/kernel/PX_Partical.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Partical.h" />
+		<Unit filename="PainterEngine/kernel/PX_Resource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Resource.h" />
+		<Unit filename="PainterEngine/kernel/PX_ScriptCore.h" />
+		<Unit filename="PainterEngine/kernel/PX_Script_ASMCompiler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Script_ASMCompiler.h" />
+		<Unit filename="PainterEngine/kernel/PX_Script_Interpreter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Script_Interpreter.h" />
+		<Unit filename="PainterEngine/kernel/PX_Sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Sync.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_base_type.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_base_type.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_bcontainer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_bcontainer.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_block.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_block.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_float.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_float.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_float_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_float_list.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_int.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_int_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_int_list.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_numeric_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_numeric_list.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_set.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_string.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_string_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_string_list.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_tuple_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_const_tuple_list.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_prefix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_prefix.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_token_prefix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_token_prefix.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_token_suffix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_token_suffix.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_variable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_declare_variable.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_define.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_define.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_define_struct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_define_struct.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_identifier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_identifier.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_keyword.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_keyword.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_numeric.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_numeric.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_opcode_base.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_opcode_base.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_source.h" />
+		<Unit filename="PainterEngine/kernel/PX_Syntax_tuple.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_Syntax_tuple.h" />
+		<Unit filename="PainterEngine/kernel/PX_UI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_UI.h" />
+		<Unit filename="PainterEngine/kernel/PX_VM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_VM.h" />
+		<Unit filename="PainterEngine/kernel/PX_World.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/kernel/PX_World.h" />
+		<Unit filename="PainterEngine/platform/modules/PX_sockethub.h" />
+		<Unit filename="PainterEngine/platform/modules/px_audio.h" />
+		<Unit filename="PainterEngine/platform/modules/px_file.h" />
+		<Unit filename="PainterEngine/platform/modules/px_httpserver.h" />
+		<Unit filename="PainterEngine/platform/modules/px_request.h" />
+		<Unit filename="PainterEngine/platform/modules/px_serialport.h" />
+		<Unit filename="PainterEngine/platform/modules/px_socket.h" />
+		<Unit filename="PainterEngine/platform/modules/px_sysmemory.h" />
+		<Unit filename="PainterEngine/platform/modules/px_tcp.h" />
+		<Unit filename="PainterEngine/platform/modules/px_thread.h" />
+		<Unit filename="PainterEngine/platform/modules/px_time.h" />
+		<Unit filename="PainterEngine/platform/modules/px_udp.h" />
+		<Unit filename="PainterEngine/platform/modules/px_visualos.h" />
+		<Unit filename="PainterEngine/platform/windows/PX_sockethub.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_audio.cpp" />
+		<Unit filename="PainterEngine/platform/windows/px_display.cpp" />
+		<Unit filename="PainterEngine/platform/windows/px_display.h" />
+		<Unit filename="PainterEngine/platform/windows/px_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_httpserver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_mmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_process.h" />
+		<Unit filename="PainterEngine/platform/windows/px_serialport.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_socket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_tcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_udp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/platform/windows/px_visualos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/runtime/PainterEngine_Application.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/runtime/PainterEngine_Application.h" />
+		<Unit filename="PainterEngine/runtime/PainterEngine_Runtime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PainterEngine/runtime/PainterEngine_Runtime.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

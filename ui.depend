@@ -1,0 +1,1363 @@
+# depslib dependency file v1.0
+1753148634 source:e:\work\rd\神经网络\ui\main.c
+	"PainterEngine.h"
+	"stdio.h"
+
+1723597883 source:e:\work\rd\神经网络\ui\painterengine\core\px_3d.c
+	"PX_3D.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_3d.h
+	"PX_BaseGeo.h"
+	"PX_Vector.h"
+	"PX_Texture.h"
+	"PX_ImageFilter.h"
+
+1723352783 e:\work\rd\神经网络\ui\painterengine\core\px_basegeo.h
+	"PX_Surface.h"
+	"PX_GPU.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_surface.h
+	"PX_MemoryPool.h"
+
+1736822429 e:\work\rd\神经网络\ui\painterengine\core\px_memorypool.h
+	"PX_Typedef.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_typedef.h
+	"PX_MathTable.h"
+	"PX_Log.h"
+
+1728657117 e:\work\rd\神经网络\ui\painterengine\core\px_mathtable.h
+
+1746517733 e:\work\rd\神经网络\ui\painterengine\core\px_log.h
+
+1723622217 e:\work\rd\神经网络\ui\painterengine\core\px_gpu.h
+	"PX_Typedef.h"
+	"xil_cache.h"
+	"xparameters.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_vector.h
+	"PX_MemoryPool.h"
+	"PX_Quicksort.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_quicksort.h
+	"PX_Typedef.h"
+
+1726983619 e:\work\rd\神经网络\ui\painterengine\core\px_texture.h
+	"PX_Vector.h"
+	"PX_Surface.h"
+	"PX_Bitmap.h"
+	"PX_TRaw.h"
+	"PX_Png.h"
+	"PX_jpg.h"
+	"PX_GPU.h"
+	"PX_Arle.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_bitmap.h
+	"PX_Surface.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_traw.h
+	"../core/PX_Surface.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_png.h
+	"PX_MemoryPool.h"
+	"PX_RFC1951.h"
+	"PX_Surface.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_rfc1951.h
+	"PX_Huffman.h"
+	"PX_LZ77.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_huffman.h
+	"PX_Quicksort.h"
+	"PX_Memory.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_memory.h
+	"PX_MemoryPool.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_lz77.h
+	"PX_Memory.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_jpg.h
+	"PX_Memory.h"
+	"PX_Surface.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_arle.h
+	"PX_Memory.h"
+
+1726115429 e:\work\rd\神经网络\ui\painterengine\core\px_imagefilter.h
+	"PX_Texture.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_abi.c
+	"PX_Abi.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_abi.h
+	"PX_Memory.h"
+	"PX_String.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\core\px_string.h
+	"PX_MemoryPool.h"
+	"PX_Font.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_font.h
+	"PX_Surface.h"
+	"PX_Texture.h"
+	"PX_Base64.h"
+	"PX_Truetype.h"
+	"PX_Hashmap.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_base64.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_truetype.h
+	"PX_MemoryPool.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_hashmap.h
+	"PX_MemoryPool.h"
+	"PX_RedBlackTree.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_redblacktree.h
+	"PX_Murmur.h"
+	"PX_MemoryPool.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_murmur.h
+	"PX_Typedef.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_aes.c
+	"PX_AES.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_aes.h
+	"PX_Typedef.h"
+
+1728657117 source:e:\work\rd\神经网络\ui\painterengine\core\px_ann.c
+	"PX_ANN.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_ann.h
+	"PX_MemoryPool.h"
+
+1746503255 source:e:\work\rd\神经网络\ui\painterengine\core\px_arle.c
+	"PX_Arle.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_base64.c
+	"PX_Base64.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_basegeo.c
+	"PX_BaseGeo.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_bitmap.c
+	"PX_Bitmap.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_curve25519.c
+	"PX_curve25519.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_curve25519.h
+	"PX_MemoryPool.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_delaunay.c
+	"PX_Delaunay.h"
+	"PX_Quicksort.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_delaunay.h
+	"PX_3D.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_effect.c
+	"PX_Effect.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_effect.h
+	"PX_Surface.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_font.c
+	"PX_Font.h"
+
+1747023977 source:e:\work\rd\神经网络\ui\painterengine\core\px_gif.c
+	"PX_Gif.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_gif.h
+	"PX_Texture.h"
+
+1723600378 source:e:\work\rd\神经网络\ui\painterengine\core\px_gpu.c
+	"PX_GPU.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_hashmap.c
+	"PX_Hashmap.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_http.c
+	"PX_Http.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_http.h
+	"PX_Memory.h"
+
+1746517733 source:e:\work\rd\神经网络\ui\painterengine\core\px_huffman.c
+	"PX_Huffman.h"
+
+1726284013 source:e:\work\rd\神经网络\ui\painterengine\core\px_imagefilter.c
+	"PX_ImageFilter.h"
+
+1736822429 source:e:\work\rd\神经网络\ui\painterengine\core\px_jpg.c
+	"PX_jpg.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_json.c
+	"PX_Json.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\core\px_json.h
+	"PX_Lexer.h"
+	"PX_List.h"
+	"PX_String.h"
+	"PX_Abi.h"
+
+1746517733 e:\work\rd\神经网络\ui\painterengine\core\px_lexer.h
+	"PX_String.h"
+	"PX_Vector.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_list.h
+	"PX_MemoryPool.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_kalmanfilter.c
+	"PX_KalmanFilter.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_kalmanfilter.h
+	"PX_Typedef.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_karplusstrong.c
+	"PX_KarplusStrong.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_karplusstrong.h
+	"PX_Typedef.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_keyboard.c
+	"PX_Keyboard.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_keyboard.h
+	"PX_Core.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_core.h
+	"PX_Texture.h"
+	"PX_BaseGeo.h"
+	"PX_Font.h"
+	"PX_String.h"
+	"PX_Memory.h"
+	"PX_Mp3.h"
+	"PX_Hashmap.h"
+	"PX_Vector.h"
+	"PX_List.h"
+	"PX_AES.h"
+	"PX_ANN.h"
+	"PX_Sound.h"
+	"PX_Effect.h"
+	"PX_Quicksort.h"
+	"PX_Quadtree.h"
+	"PX_curve25519.h"
+	"PX_Sha1.h"
+	"PX_Sha256.h"
+	"PX_Arle.h"
+	"PX_Huffman.h"
+	"PX_Base64.h"
+	"PX_3D.h"
+	"PX_PointsMesh.h"
+	"PX_MFCC.h"
+	"PX_KalmanFilter.h"
+	"PX_ImageFilter.h"
+	"PX_Linker.h"
+	"PX_Tuning.h"
+	"PX_Midi.h"
+	"PX_KarplusStrong.h"
+	"PX_Piano.h"
+	"PX_WebSocket.h"
+	"PX_Wavelet.h"
+	"PX_Png.h"
+	"PX_Keyboard.h"
+	"PX_Gif.h"
+	"PX_Abi.h"
+	"PX_Variable.h"
+	"PX_Json.h"
+	"PX_Lexer.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_mp3.h
+	"PX_Memory.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_sound.h
+	"PX_Wave.h"
+	"PX_Vector.h"
+	"PX_Tuning.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_wave.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_tuning.h
+	"../core/PX_Core.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_quadtree.h
+	"PX_List.h"
+	"PX_Vector.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_sha1.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_sha256.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_pointsmesh.h
+	"PX_Delaunay.h"
+	"PX_Texture.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_mfcc.h
+	"PX_MemoryPool.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_linker.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_midi.h
+	"PX_Vector.h"
+	"PX_Memory.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_piano.h
+	"PX_LTI.h"
+	"PX_Lagrange.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_lti.h
+	"PX_Memory.h"
+	"PX_Signal.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_signal.h
+	"PX_Typedef.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_lagrange.h
+	"PX_Memory.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\core\px_websocket.h
+	"PX_Memory.h"
+	"PX_Http.h"
+	"PX_Linker.h"
+	"PX_Base64.h"
+	"PX_Sha1.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_wavelet.h
+	"PX_LTI.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\core\px_variable.h
+	"PX_Memory.h"
+	"PX_String.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_lagrange.c
+	"PX_Lagrange.h"
+
+1746517733 source:e:\work\rd\神经网络\ui\painterengine\core\px_lexer.c
+	"./PX_Lexer.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_linker.c
+	"PX_Linker.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_list.c
+	"PX_List.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_log.c
+	"PX_Typedef.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_lti.c
+	"PX_LTI.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_lz77.c
+	"PX_LZ77.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_memory.c
+	"PX_Memory.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_memorypool.c
+	"PX_MemoryPool.h"
+	"stdio.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_mfcc.c
+	"PX_MFCC.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_midi.c
+	"PX_Midi.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_mp3.c
+	"PX_Mp3.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_murmur.c
+	"PX_Murmur.h"
+
+1736822429 source:e:\work\rd\神经网络\ui\painterengine\core\px_packet.c
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_piano.c
+	"PX_Piano.h"
+	"PX_Piano_mod.h"
+	"PX_Piano_mod.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_piano_mod.h
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_png.c
+	"PX_Png.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_pointsmesh.c
+	"PX_PointsMesh.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_quadtree.c
+	"PX_Quadtree.h"
+
+1746517733 source:e:\work\rd\神经网络\ui\painterengine\core\px_quicksort.c
+	"PX_Quicksort.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_redblacktree.c
+	"PX_RedBlackTree.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_rfc1951.c
+	"PX_RFC1951.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_sha1.c
+	"PX_Sha1.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_sha256.c
+	"PX_Sha256.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_signal.c
+	"PX_Signal.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_sound.c
+	"PX_Sound.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_soundmodule.c
+	"PX_SoundModule.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\core\px_soundmodule.h
+	"../core/PX_Core.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\core\px_string.c
+	"PX_String.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_surface.c
+	"PX_Surface.h"
+
+1746517733 source:e:\work\rd\神经网络\ui\painterengine\core\px_texture.c
+	"PX_Texture.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_traw.c
+	"PX_TRaw.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_trianglecross.c
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_truetype.c
+	"PX_Truetype.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_tuning.c
+	"PX_Tuning.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\core\px_typedef.c
+	"PX_Typedef.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_variable.c
+	"PX_Variable.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\core\px_vector.c
+	"PX_Vector.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_wave.c
+	"PX_Wave.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\core\px_wavelet.c
+	"PX_Wavelet.h"
+
+1747023977 source:e:\work\rd\神经网络\ui\painterengine\core\px_websocket.c
+	"PX_WebSocket.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_3d_objdata.c
+	"PX_3D_ObjData.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_3d_objdata.h
+	"../core/PX_Core.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_animation.c
+	"PX_Animation.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_animation.h
+	"PX_2dxCommon.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_2dxcommon.h
+	"../core/PX_Core.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_canvasvm.c
+	"PX_CanvasVM.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_canvasvm.h
+	"../core/PX_Core.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_cda.c
+	"PX_CDA.h"
+	"PX_CDA_VM.h"
+	"PX_CDA_ObjectVM.h"
+
+1746517734 e:\work\rd\神经网络\ui\painterengine\kernel\px_cda.h
+	"../core/PX_Core.h"
+	"PX_VM.h"
+	"PX_Resource.h"
+	"PX_Compiler.h"
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_vm.h
+	"PX_ScriptCore.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_scriptcore.h
+	"../core/PX_Core.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_resource.h
+	"../core/PX_Core.h"
+	"PX_VM.h"
+	"PX_Animation.h"
+	"PX_Partical.h"
+	"PX_Script_Interpreter.h"
+	"PX_Script_ASMCompiler.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_partical.h
+	"../core/PX_Core.h"
+
+1725270689 e:\work\rd\神经网络\ui\painterengine\kernel\px_script_interpreter.h
+	"PX_ScriptCore.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_script_asmcompiler.h
+	"PX_ScriptCore.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_compiler.h
+	"PX_Script_Interpreter.h"
+	"PX_Script_ASMCompiler.h"
+	"PX_VM.h"
+
+1748610155 e:\work\rd\神经网络\ui\painterengine\kernel\px_object.h
+	"../core/PX_Core.h"
+	"PX_Animation.h"
+	"PX_Partical.h"
+	"PX_Object_Label.h"
+	"PX_Object_Processbar.h"
+	"PX_Object_Image.h"
+	"PX_Object_Sliderbar.h"
+	"PX_Object_PushButton.h"
+	"PX_Object_Edit.h"
+	"PX_Object_ScrollArea.h"
+	"PX_Object_AutoText.h"
+	"PX_Object_Animation.h"
+	"PX_Object_CursorButton.h"
+	"PX_Object_List.h"
+	"PX_Object_VirtualKeyboard.h"
+	"PX_Object_Oscilloscope.h"
+	"PX_Object_CheckBox.h"
+	"PX_Object_Menu.h"
+	"PX_Object_Selectbar.h"
+	"PX_Object_RadioBox.h"
+	"PX_Object_Explorer.h"
+	"PX_Object_Widget.h"
+	"PX_Object_ScaleBox.h"
+	"PX_Object_MessageBox.h"
+	"PX_Object_Protractor.h"
+	"PX_Object_TransformAdapter.h"
+	"PX_Object_Panc.h"
+	"PX_Object_DesignerBox.h"
+	"PX_Object_Joystick.h"
+	"PX_Object_MemoryView.h"
+	"PX_Object_Various.h"
+	"PX_Object_Box.h"
+	"PX_Object_VarBox.h"
+	"PX_Object_ModbusVarBox.h"
+	"PX_Object_RankPanel.h"
+	"PX_Object_Piano.h"
+	"PX_Object_CounterDown.h"
+	"PX_Object_Printer.h"
+	"PX_Object_Executer.h"
+	"PX_Object_AsmDebugger.h"
+	"PX_Object_Explosion.h"
+	"PX_Object_ColorPanel.h"
+	"PX_Object_Canvas.h"
+	"PX_Object_CursorSlider.h"
+	"PX_Object_Typer.h"
+	"PX_Object_Timer.h"
+	"PX_Object_Panel.h"
+	"PX_Object_3D.h"
+	"PX_Object_SoundView.h"
+	"PX_Object_Partical.h"
+	"PX_Object_Live2D.h"
+	"PX_Object_Firework.h"
+	"PX_Object_Effect.h"
+	"PX_Object_Button.h"
+	"PX_Object_Drag.h"
+	"PX_Object_ScorePanel.h"
+	"PX_Object_Collapse.h"
+	"PX_Object_Grid.h"
+	"PX_Object_ClockPan.h"
+	"PX_Object_TinyCanvas.h"
+	"PX_Object_Stamp.h"
+	"PX_Object_Waiting.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_label.h
+	"PX_Object.h"
+
+1748610155 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_processbar.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_image.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_sliderbar.h
+	"PX_Object.h"
+
+1736822433 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_pushbutton.h
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_edit.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scrollarea.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_autotext.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_animation.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_cursorbutton.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_list.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_virtualkeyboard.h
+	"PX_Object.h"
+
+1726627210 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_oscilloscope.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_checkbox.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_menu.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_selectbar.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_radiobox.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_explorer.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_widget.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scalebox.h
+	"PX_Object.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_messagebox.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_protractor.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_transformadapter.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_panc.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_designerbox.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_joystick.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_memoryview.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_various.h
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_box.h
+	"PX_Object.h"
+	"PX_CanvasVM.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_varbox.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_modbusvarbox.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_rankpanel.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_piano.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_counterdown.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_printer.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_executer.h
+	"PX_Compiler.h"
+	"PX_Object.h"
+	"PX_Resource.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_asmdebugger.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_explosion.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_colorpanel.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_canvas.h
+	"PX_Object.h"
+	"PX_CanvasVM.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_cursorslider.h
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_typer.h
+	"PX_Object.h"
+
+1723107291 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_timer.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_panel.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_3d.h
+	"PX_Object.h"
+	"PX_3D_ObjData.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_soundview.h
+	"PX_Object.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_partical.h
+	"PX_Object.h"
+	"PX_Partical.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_live2d.h
+	"PX_Object.h"
+	"PX_LiveFramework.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_liveframework.h
+	"../core/PX_Core.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_firework.h
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_effect.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_button.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_drag.h
+	"PX_Object.h"
+
+1736822433 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scorepanel.h
+	"PX_Object.h"
+
+1736822432 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_collapse.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_grid.h
+	"PX_Object.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_clockpan.h
+	"PX_Object.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_tinycanvas.h
+	"PX_Object.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_stamp.h
+	"PX_Object.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_waiting.h
+	"PX_Object_CursorSlider.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_cda_vm.h
+	"PX_CDA.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_cda_objectvm.h
+	"PX_CDA.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_compiler.c
+	"PX_Compiler.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_liveframework.c
+	"PX_LiveFramework.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_modbus.c
+	"PX_Modbus.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_modbus.h
+	"../core/PX_Core.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_mqtt.c
+	"PX_MQTT.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_mqtt.h
+	"../core/PX_Core.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object.c
+	"PX_Object.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_3d.c
+	"PX_Object_3D.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_animation.c
+	"PX_Object_Animation.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_asmdebugger.c
+	"PX_Object_AsmDebugger.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_autotext.c
+	"PX_Object_AutoText.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_box.c
+	"PX_Object_Box.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_button.c
+	"PX_Object_Button.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_canvas.c
+	"PX_Object_Canvas.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_checkbox.c
+	"PX_Object_CheckBox.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_clockpan.c
+	"PX_Object_ClockPan.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_collapse.c
+	"PX_Object_Collapse.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_colorpanel.c
+	"PX_Object_ColorPanel.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_counterdown.c
+	"PX_Object_CounterDown.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_cursorbutton.c
+	"PX_Object_CursorButton.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_cursorslider.c
+	"PX_Object_CursorSlider.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_designerbox.c
+	"PX_Object_DesignerBox.h"
+	"PX_Object_DesignerBox.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_drag.c
+	"PX_Object_Drag.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_edit.c
+	"PX_Object_Edit.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_effect.c
+	"PX_Object_Effect.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_executer.c
+	"PX_Object_Executer.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_explorer.c
+	"PX_Object_Explorer.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_explosion.c
+	"PX_Object_Explosion.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_firework.c
+	"PX_Object_Firework.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_grid.c
+	"PX_Object_Grid.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_image.c
+	"PX_Object_Image.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_joystick.c
+	"PX_Object_Joystick.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_label.c
+	"PX_Object_Label.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_list.c
+	"PX_Object_List.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_live2d.c
+	"PX_Object_Live2D.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_memoryview.c
+	"PX_Object_MemoryView.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_menu.c
+	"PX_Object_Menu.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_messagebox.c
+	"PX_Object_MessageBox.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_modbusvarbox.c
+	"PX_Object_ModbusVarBox.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_oscilloscope.c
+	"PX_Object_Oscilloscope.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_painterbox.c
+	"PX_Object_PainterBox.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\kernel\px_object_painterbox.h
+	"PX_Object.h"
+	"PX_CanvasVM.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_panc.c
+	"PX_Object_Panc.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_panel.c
+	"PX_Object_Panel.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_partical.c
+	"PX_Object_Partical.h"
+
+1736822432 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_piano.c
+	"PX_Object_Piano.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_printer.c
+	"PX_Object_Printer.h"
+
+1748610155 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_processbar.c
+	"PX_Object_Processbar.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_protractor.c
+	"PX_Object_Protractor.h"
+
+1747023977 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_pushbutton.c
+	"PX_Object_PushButton.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_radiobox.c
+	"PX_Object_RadioBox.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_rankpanel.c
+	"PX_Object_RankPanel.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scalebox.c
+	"PX_Object_ScaleBox.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scorepanel.c
+	"PX_Object_ScorePanel.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_scrollarea.c
+	"PX_Object_ScrollArea.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_selectbar.c
+	"PX_Object_Selectbar.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_sliderbar.c
+	"PX_Object_Sliderbar.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_soundview.c
+	"PX_Object_SoundView.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_stamp.c
+	"PX_Object_Stamp.h"
+
+1723107483 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_timer.c
+	"PX_Object_Timer.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_tinycanvas.c
+	"PX_Object_TinyCanvas.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_transformadapter.c
+	"PX_Object_TransformAdapter.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_typer.c
+	"PX_Object_Typer.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_varbox.c
+	"PX_Object_VarBox.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_various.c
+	"PX_Object_Various.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_virtualkeyboard.c
+	"PX_Object_VirtualKeyboard.h"
+
+1748508940 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_waiting.c
+	"PX_Object_Waiting.h"
+
+1736822433 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_object_widget.c
+	"PX_Object_Widget.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_partical.c
+	"PX_Partical.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_resource.c
+	"PX_Resource.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_script_asmcompiler.c
+	"PX_Script_ASMCompiler.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_script_interpreter.c
+	"PX_Script_Interpreter.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_sync.c
+	"PX_Sync.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\kernel\px_sync.h
+	"../core/PX_Core.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax.c
+	"PX_Syntax.h"
+
+1746517734 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax.h
+	"../core/PX_Core.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_base_type.c
+	"PX_Syntax_base_type.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_base_type.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_bcontainer.c
+	"PX_Syntax_bcontainer.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_bcontainer.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_block.c
+	"PX_Syntax_block.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_block.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_float.c
+	"PX_Syntax_const_float.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_float.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_float_list.c
+	"PX_Syntax_const_float_list.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_float_list.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_int.c
+	"PX_Syntax_const_int.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_int.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_int_list.c
+	"PX_Syntax_const_int_list.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_int_list.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_numeric_list.c
+	"PX_Syntax_const_numeric_list.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_numeric_list.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_set.c
+	"PX_Syntax_const_set.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_set.h
+	"PX_Syntax.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_string.c
+	"PX_Syntax_const_string.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_string.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_string_list.c
+	"PX_Syntax_const_string_list.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_string_list.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_tuple_list.c
+	"PX_Syntax_const_tuple_list.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_const_tuple_list.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_prefix.c
+	"PX_Syntax_declare_prefix.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_prefix.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_token_prefix.c
+	"PX_Syntax_declare_token_prefix.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_token_prefix.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_token_suffix.c
+	"PX_Syntax_declare_token_suffix.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_token_suffix.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_variable.c
+	"PX_Syntax_declare_variable.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_declare_variable.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_define.c
+	"PX_Syntax_tuple.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_tuple.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_define_struct.c
+	"PX_Syntax_define_struct.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_define_struct.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_identifier.c
+	"PX_Syntax_identifier.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_identifier.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_keyword.c
+	"PX_Syntax_keyword.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_keyword.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_numeric.c
+	"PX_Syntax_numeric.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_numeric.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_opcode_base.c
+	"PX_Syntax_opcode_base.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_opcode_base.h
+	"PX_Syntax.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_tuple.c
+	"PX_Syntax_tuple.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_ui.c
+	"PX_UI.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_ui.h
+	"PX_Object.h"
+
+1748610155 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_vm.c
+	"PX_VM.h"
+
+1746503256 source:e:\work\rd\神经网络\ui\painterengine\kernel\px_world.c
+	"PX_World.h"
+
+1728657117 e:\work\rd\神经网络\ui\painterengine\kernel\px_world.h
+	"../core/PX_Core.h"
+	"PX_VM.h"
+	"PX_Resource.h"
+	"PX_Object.h"
+
+1719220550 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_audio.cpp
+	<Windows.h>
+	<dsound.h>
+	"../../core/PX_Sound.h"
+	"stdio.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_display.cpp
+	<d2d1helper.h>
+	<WindowsX.h>
+	"stdio.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_process.c
+	"px_process.h"
+
+1746503257 e:\work\rd\神经网络\ui\painterengine\platform\windows\px_process.h
+	<windows.h>
+	<stdio.h>
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_file.c
+	"../modules/px_file.h"
+	"stdio.h"
+	"stdlib.h"
+	"string.h"
+	"windows.h"
+
+1746503257 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_file.h
+	"stdio.h"
+	"stdlib.h"
+	"string.h"
+	"../../kernel/PX_Kernel.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_kernel.h
+	"PX_Script_Interpreter.h"
+	"PX_Syntax.h"
+	"PX_Script_ASMCompiler.h"
+	"PX_VM.h"
+	"PX_Partical.h"
+	"PX_Animation.h"
+	"PX_Sync.h"
+	"PX_MQTT.h"
+	"PX_Object.h"
+	"PX_3D_ObjData.h"
+	"PX_Modbus.h"
+	"PX_LiveFramework.h"
+	"PX_UI.h"
+	"PX_Compiler.h"
+	"PX_CanvasVM.h"
+	"PX_CDA.h"
+	"PX_World.h"
+	"PX_Syntax_const_int.h"
+	"PX_Syntax_const_float.h"
+	"PX_Syntax_const_string.h"
+	"PX_Syntax_keyword.h"
+	"PX_Syntax_bcontainer.h"
+	"PX_Syntax_identifier.h"
+	"PX_Syntax_numeric.h"
+	"PX_Syntax_tuple.h"
+	"PX_Syntax_const_string_list.h"
+	"PX_Syntax_const_int_list.h"
+	"PX_Syntax_const_float_list.h"
+	"PX_Syntax_const_numeric_list.h"
+	"PX_Syntax_const_tuple_list.h"
+	"PX_Syntax_const_set.h"
+	"PX_Syntax_define.h"
+	"PX_Syntax_define_struct.h"
+	"PX_Syntax_opcode_base.h"
+	"PX_Syntax_declare_prefix.h"
+	"PX_Syntax_base_type.h"
+	"PX_Syntax_declare_variable.h"
+	"PX_Syntax_declare_token_suffix.h"
+	"PX_Syntax_declare_token_prefix.h"
+
+1746503256 e:\work\rd\神经网络\ui\painterengine\kernel\px_syntax_define.h
+	"PX_Syntax.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_httpserver.c
+	"../modules/px_httpserver.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_httpserver.h
+	"px_time.h"
+	"px_tcp.h"
+	"px_thread.h"
+	"px_sysmemory.h"
+	"../../kernel/PX_Kernel.h"
+
+1746503257 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_time.h
+
+1746503257 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_tcp.h
+
+1729269959 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_thread.h
+
+1746503257 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_sysmemory.h
+	"stdlib.h"
+	"string.h"
+	"stdio.h"
+	"../../core/PX_Core.h"
+	<Windows.h>
+	<stddef.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<unistd.h>
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_main.c
+	"../../runtime/PainterEngine_Application.h"
+	"../../platform/modules/px_thread.h"
+	"px_display.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\runtime\painterengine_application.h
+	"PainterEngine_Runtime.h"
+	"../platform/modules/px_file.h"
+	"../platform/modules/px_time.h"
+	"../platform/modules/px_audio.h"
+	"../platform/modules/px_request.h"
+	"../platform/modules/px_tcp.h"
+	"../platform/modules/px_udp.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\runtime\painterengine_runtime.h
+	"../kernel/PX_Kernel.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_audio.h
+	"../../core/PX_Sound.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_request.h
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_udp.h
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\platform\windows\px_display.h
+	<Windows.h>
+	"stdio.h"
+	"time.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_mmap.c
+	"../modules/px_sysmemory.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_serialport.c
+	"../modules/px_serialPort.h"
+	"windows.h"
+
+1719220550 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_serialport.h
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_socket.c
+	"../modules/px_socket.h"
+	"../modules/px_tcp.h"
+	"../modules/px_udp.h"
+	"../modules/px_time.h"
+	"../modules/px_sysmemory.h"
+	"../modules/px_thread.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_socket.h
+	"../../kernel/PX_Kernel.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_sockethub.c
+	"../modules/px_sockethub.h"
+	"../modules/px_sysmemory.h"
+
+1748508940 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_sockethub.h
+	"px_tcp.h"
+	"px_thread.h"
+	"px_sysmemory.h"
+	"px_time.h"
+	"../../kernel/PX_Kernel.h"
+
+1729178000 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_tcp.c
+	"../modules/px_tcp.h"
+	<Windows.h>
+	<WinSock.h>
+	<Mmsystem.h>
+	"stdio.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_thread.c
+	"../modules/px_thread.h"
+	"windows.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_time.c
+	"../modules/px_time.h"
+	"time.h"
+	"windows.h"
+
+1746503257 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_udp.c
+	"../modules/px_udp.h"
+	<Windows.h>
+	<WinSock.h>
+	<Mmsystem.h>
+	"stdio.h"
+
+1746869526 source:e:\work\rd\神经网络\ui\painterengine\platform\windows\px_visualos.c
+	"../modules/px_visualos.h"
+
+1746869526 e:\work\rd\神经网络\ui\painterengine\platform\modules\px_visualos.h
+	"px_socket.h"
+	"px_sysmemory.h"
+	"px_thread.h"
+	"../../kernel/PX_Kernel.h"
+
+1746517734 source:e:\work\rd\神经网络\ui\painterengine\runtime\painterengine_application.c
+	"PainterEngine_Application.h"
+
+1725614335 source:e:\work\rd\神经网络\ui\painterengine\runtime\painterengine_runtime.c
+	"PainterEngine_Runtime.h"
+
