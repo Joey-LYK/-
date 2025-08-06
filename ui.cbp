@@ -30,6 +30,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="PainterEngine/core" />
+			<Add directory="PainterEngine/platform/modules" />
+			<Add directory="PainterEngine/kernel" />
+			<Add directory="PainterEngine/platform/windows" />
+			<Add directory="PainterEngine" />
 		</Compiler>
 		<Linker>
 			<Add library="gdi32" />
